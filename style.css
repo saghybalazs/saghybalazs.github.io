@@ -1,0 +1,81 @@
+.container {
+  width: 700px;
+  margin: auto;
+}
+.header {
+  width: 700px;
+  height: 180px;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-size: cover;
+  background-position: left bottom;
+  position: relative;
+  font-family: 'Abril Fatface', cursive;
+}
+#hiText {
+  position: absolute;
+  top: 74px;
+  left: 163px;
+  font-size: 20px;
+}
+#nameText {
+  position: absolute;
+  top: 75px;
+  left: 163px;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+.content {
+  margin: 40px 170px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 10px;
+}
+
+.content ul {
+  padding-left: 21px;
+}
+/* Abszolut pozicionalas*/
+.footer {
+  width: 400px;
+  height: 85px;
+  background-color: #444444;
+  margin: auto;
+  font-family: 'Abril Fatface', cursive;
+  position:relative;
+}
+
+#footerMark {
+  color: white;
+  font-size: 70px;
+  -webkit-transform: rotate( 180deg );
+  line-height: 0;
+  position: absolute;
+  bottom: 60;
+  left: 0;
+}
+#footerText {
+  color: white;
+  width: 400px;
+  font-size: 23px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 27px;
+  left: 20px;
+}
+
+/* Pszeudo
+.footer {
+  width: 400px;
+  height: 85px;
+  background-color: #444444;
+  margin: auto;
+  font-family: 'Abril Fatface', cursive;
+}
+.footer blockquote {
+  color: white;
+  font-size: 21px;
+}
+blockquote::before {
+  content: '”';
+  color: white;
+}
+*/
